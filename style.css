@@ -1,0 +1,72 @@
+body{
+    background-color: powderblue
+}
+
+#score{
+    font-size: 30px;
+   margin-right: 1150px;
+   background-color: rgb(25, 188, 221);
+   color: aliceblue;
+    
+}
+
+#timer{
+    font-size: 30px;
+   background-color: rgb(25, 188, 221);
+   color: aliceblue;
+
+}
+
+#sketch_drawn{
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    font-family: serif
+}
+h1{
+    font-size: 40px;
+    font-family: serif;
+    background-color: aliceblue;
+    text-align: center;
+    color: rgb(6, 55, 97);
+}
+
+button{
+    float: right;
+}
+
+#your_sketch{
+font-size: 25px;
+font-family: serif;
+}
+
+#accuracy{
+    font-size: 25px;
+    font-family: serif;
+    }
+
+    canvas 
+  {
+    border:5px solid rgb(5, 5, 5);
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px rgb(30, 0, 255);
+    box-shadow: 1px 1px 38px #ef36c7;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(48, 92, 225);}
+  to {box-shadow: 1px 1px 38px rgb(237, 113, 221);}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
